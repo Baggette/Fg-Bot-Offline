@@ -42,7 +42,7 @@ for (const file of commandFiles) {
     client.commands.set(command.name, command)
 }
 client.on('messageCreate', (message) => { 
-    if (!message.content.startsWith(Prefix) || message.author.bot return;
+    if (!message.content.startsWith(Prefix) || message.author.bot) return;
     const args = message.content.slice(Prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
 

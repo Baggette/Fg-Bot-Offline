@@ -29,7 +29,7 @@ client.on('messageCreate', (message) =>{
             {name:"How do I use these slash commands?", value:"type / and a menu should come up, type /help and select the one from free games bot."}
         )
         .setTimestamp()
-        .setFooter({text:"Bot made by Baggette#4777", iconURL:"https://cdn.discordapp.com/avatars/887756464020672523/5261d8f56ece38a54d1e88d3316310b6.webp?size=80"})
+        .setFooter({text:"Bot made by Baggette#4777", iconURL:"https://discord.com/assets/7c8f476123d28d103efe381543274c25.png"})
         message.channel.send({embeds:[embed]})
     }
 });
